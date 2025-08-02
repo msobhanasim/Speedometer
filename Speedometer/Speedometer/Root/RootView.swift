@@ -13,31 +13,34 @@ struct RootView: View {
     @FocusState private var isFieldFocused: Bool
     
     var body: some View {
-        VStack(spacing: 30) {
-            SpeedometerView(currentValue: speed)
-         
-            SpeedFieldView(
-                isFocused: $isFieldFocused,
-                enteredSpeed: $speedString
-            )
+        ZStack {
+            Color.black.opacity(0.001).onTapGesture {
+                isFieldFocused = false
+            }
             
-            Button("Submit") {
-                withAnimation {
-                    speed = Double(speedString) ?? 0
+            VStack(spacing: 30) {
+                SpeedometerView(currentValue: speed)
+                
+                SpeedFieldView(
+                    isFocused: $isFieldFocused,
+                    enteredSpeed: $speedString
+                )
+                
+                Button("Submit") {
+                    withAnimation {
+                        speed = Double(speedString) ?? 0
+                    }
+                }
+                .buttonStyle(.bordered)
+            }
+            .padding()
+            .onChange(of: speedString) { _, newValue in
+                if newValue.isEmpty {
+                    withAnimation {
+                        speed = Double(newValue) ?? 0
+                    }
                 }
             }
-            .buttonStyle(.bordered)
-        }
-        .padding()
-        .onChange(of: speedString) { _, newValue in
-            if newValue.isEmpty {
-                withAnimation {
-                    speed = Double(newValue) ?? 0
-                }
-            }
-        }
-        .onTapGesture {
-            isFieldFocused = false
         }
     }
 }
