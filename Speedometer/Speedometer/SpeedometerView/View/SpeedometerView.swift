@@ -20,15 +20,15 @@ struct SpeedometerView: View {
     
     let majorTicks: [Double] = [0.0, 1000, 5000, 10000, 25000, 50000, 100000]
     
-    /// Creates an analog dial view.
+    /// Creates an analog speedometer dial view.
     ///
     /// - Parameters:
-    ///   - currentValue: The value the dial's hand should display. Should be between `minValue`
+    ///   - currentValue: The value the speedometer dial's hand should display. Should be between `minValue` or else the needle will cap at `100k+`
     ///     and `maxValue`.
-    ///   - minValue: The minimum value in the dial's range.
-    ///   - maxValue: The maximum value in the dial's range.
-    ///   - startAngle: The angle where the dial scale should start.
-    ///   - endAngle: The angle where the dial scale should end.
+    ///   - minValue: The minimum value in the speedometer dial's range.
+    ///   - maxValue: The maximum value in the speedometer dial's range.
+    ///   - startAngle: The angle where the speedometer dial scale should start.
+    ///   - endAngle: The angle where the speedometer dial scale should end.
     init(
         currentValue: Double,
         minValue: Double = 0,

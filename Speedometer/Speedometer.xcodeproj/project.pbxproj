@@ -83,8 +83,8 @@
 		57488DBF2E3E261F00AD239B /* Speedometer */ = {
 			isa = PBXGroup;
 			children = (
-				57488DB92E3E261F00AD239B /* SpeedometerView */,
 				57488DD82E3E37A100AD239B /* Root */,
+				57488DB92E3E261F00AD239B /* SpeedometerView */,
 				57488DD72E3E379800AD239B /* Resources */,
 			);
 			path = Speedometer;
