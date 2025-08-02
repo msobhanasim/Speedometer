@@ -34,7 +34,7 @@ struct SpeedometerView: View {
         minValue: Double = 0,
         maxValue: Double = 100_000,
         startAngle: Angle = .degrees(-195),
-        endAngle: Angle = .degrees(16)
+        endAngle: Angle = .degrees(15)
     ) {
         self.currentValue = currentValue
         self.minValue = minValue
