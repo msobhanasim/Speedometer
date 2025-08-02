@@ -27,8 +27,8 @@ struct SpeedometerHand: View {
                 Circle()
                     .fill(Color.needleBase)
                     .frame(
-                        width: geometry.size.width * 0.13,
-                        height: geometry.size.width * 0.13
+                        width: geometry.size.width * 0.18,
+                        height: geometry.size.width * 0.18
                     )
                     .shadow(radius: 3)
                 
