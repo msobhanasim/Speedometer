@@ -106,7 +106,6 @@ extension SpeedometerView {
                 .bold()
                 .offset(y: 80)
                 .frame(width: 160, height: 30)
-//                .contentTransition(.numericText())
         }
     }
     

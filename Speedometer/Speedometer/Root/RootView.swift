@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct RootView: View {
-    @State var speed: Double = 0
-    
+    @State private var speed: Double = 0
     @State private var speedString: String = ""
     @FocusState private var isFieldFocused: Bool
     
@@ -26,6 +25,9 @@ struct RootView: View {
         .onChange(of: speedString) { _, newValue in
             speed = Double(newValue) ?? 0
             
+        }
+        .onTapGesture {
+            isFieldFocused = false
         }
     }
 }
