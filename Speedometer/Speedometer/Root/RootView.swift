@@ -20,11 +20,20 @@ struct RootView: View {
                 isFocused: $isFieldFocused,
                 enteredSpeed: $speedString
             )
+            
+            Button("Submit") {
+                withAnimation {
+                    speed = Double(speedString) ?? 0
+                }
+            }
+            .buttonStyle(.bordered)
         }
         .padding()
         .onChange(of: speedString) { _, newValue in
-            withAnimation {
-                speed = Double(newValue) ?? 0
+            if newValue.isEmpty {
+                withAnimation {
+                    speed = Double(newValue) ?? 0
+                }
             }
         }
         .onTapGesture {
