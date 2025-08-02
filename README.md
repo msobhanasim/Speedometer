@@ -5,18 +5,29 @@ A sleek and customizable SwiftUI speedometer gauge designed to visually represen
 <img src="Speedometer/preview.png" alt="Speedometer Preview" width="500">
 
 Features
-	• SwiftUI-native and fully customizable
-	• Smooth spring animations
-	• Gradient background and progress arcs
-	• Radial tick mark labels
-	• Custom needle hand with dynamic movement
-	• Adaptive layout using GeometryReader
+ • SwiftUI-native and fully customizable
+ 
+ • Smooth spring animations
+ 
+ • Gradient background and progress arcs
+ 
+ • Radial tick mark labels
+ 
+ • Custom needle hand with dynamic movement
+ 
+ • Adaptive layout using GeometryReader
+
 
 Components
-	• SpeedometerView: The main component rendering the full gauge
-	• Speedometer Hand: Represents the moving needle
-	• TickMarkLabel: Shows numeric labels around the dial
-	• ProgressArcView: Shows progress based on current value
+ 
+ • SpeedometerView: The main component rendering the full gauge\n
+
+ • Speedometer Hand: Represents the moving needle
+ 
+ • TickMarkLabel: Shows numeric labels around the dial
+ 
+ • ProgressArcView: Shows progress based on current value
+
 
 Example Usage
 
@@ -27,16 +38,23 @@ SpeedometerView(
 
 Although usage is already given in the RootView.
 
+
 Customization
-	• Customize gradient colors in SpeedometerView+Content.swift
-	• Modify the needle style in SpeedometerHand.swift
+ 
+ • Customize gradient colors in SpeedometerView+Content.swift\n
+ 
+ • Modify the needle style in SpeedometerHand.swift
 
-🧪 TODOs
-	• Add min/max threshold indicators
-	• Make it fully accessible with VoiceOver
-	• Unit test the angle/position calculations
 
-👨‍💻 Author
+TODOs
 
+ • Add min/max threshold indicators
+ 
+ • Make it fully accessible with VoiceOver
+ 
+ • Unit test the angle/position calculations
+
+
+Author
 Sobhan Asim
 Reach out on LinkedIn or GitHub for feedback and suggestions for improvement.
