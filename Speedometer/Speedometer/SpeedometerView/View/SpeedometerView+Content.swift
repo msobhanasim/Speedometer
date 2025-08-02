@@ -101,6 +101,7 @@ extension SpeedometerView {
             
             // Current Speed Label
             Text(formattedValue(value: currentValue))
+                .contentTransition(.numericText())
                 .foregroundColor(.needle)
                 .font(.title)
                 .bold()
