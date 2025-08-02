@@ -17,6 +17,7 @@ Features
  
  • Adaptive layout using GeometryReader
 
+ • Auto Reset upon clearing the value in the speed textfield
 
 Components
  
@@ -44,16 +45,6 @@ Customization
  • Customize gradient colors in SpeedometerView+Content.swift\n
  
  • Modify the needle style in SpeedometerHand.swift
-
-
-TODOs
-
- • Add min/max threshold indicators
- 
- • Make it fully accessible with VoiceOver
- 
- • Unit test the angle/position calculations
-
 
 Author
 Sobhan Asim
