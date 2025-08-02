@@ -4,21 +4,21 @@ A sleek and customizable SwiftUI speedometer gauge designed to visually represen
 
 <img src="Speedometer/preview.png" alt="Speedometer Preview" width="500">
 
-✨ Features
-	•	SwiftUI-native and fully customizable
-	•	Smooth spring animations
-	•	Gradient background and progress arcs
-	•	Radial tick mark labels
-	•	Custom needle hand with dynamic movement
-	•	Adaptive layout using GeometryReader
+Features
+	• SwiftUI-native and fully customizable
+	• Smooth spring animations
+	• Gradient background and progress arcs
+	• Radial tick mark labels
+	• Custom needle hand with dynamic movement
+	• Adaptive layout using GeometryReader
 
-🧱 Components
-	•	SpeedometerView: The main component rendering the full gauge
-	•	Speedometer Hand: Represents the moving needle
-	•	TickMarkLabel: Shows numeric labels around the dial
-	•	ProgressArcView: Shows progress based on current value
+Components
+	• SpeedometerView: The main component rendering the full gauge
+	• Speedometer Hand: Represents the moving needle
+	• TickMarkLabel: Shows numeric labels around the dial
+	• ProgressArcView: Shows progress based on current value
 
-🧩 Example Usage
+Example Usage
 
 SpeedometerView(
     currentValue: 72
@@ -27,22 +27,14 @@ SpeedometerView(
 
 Although usage is already given in the RootView.
 
-⚙️ Customization
-	•	Adjust angles for a half or full dial
-	•	Change tick marks via majorTicks array
-	•	Customize gradient colors in SpeedometerView+Content.swift
-	•	Modify the needle style in SpeedometerHand.swift
-
-📦 Requirements
-	•	iOS 15.0+
-	•	Swift 5.5+
-	•	Xcode 13+
-
+Customization
+	• Customize gradient colors in SpeedometerView+Content.swift
+	• Modify the needle style in SpeedometerHand.swift
 
 🧪 TODOs
-	•	Add min/max threshold indicators
-	•	Make it fully accessible with VoiceOver
-	•	Unit test the angle/position calculations
+	• Add min/max threshold indicators
+	• Make it fully accessible with VoiceOver
+	• Unit test the angle/position calculations
 
 👨‍💻 Author
 
