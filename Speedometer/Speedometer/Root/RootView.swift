@@ -23,8 +23,9 @@ struct RootView: View {
         }
         .padding()
         .onChange(of: speedString) { _, newValue in
-            speed = Double(newValue) ?? 0
-            
+            withAnimation {
+                speed = Double(newValue) ?? 0
+            }
         }
         .onTapGesture {
             isFieldFocused = false
