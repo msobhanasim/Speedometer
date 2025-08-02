@@ -6,7 +6,7 @@ Here’s a concise and clear README.md for your SwiftUI-based Speedometer projec
 
 A sleek and customizable SwiftUI speedometer gauge designed to visually represent real-time data like speed, progress, or any other scalar value on a radial scale. Ideal for automotive dashboards, fitness trackers, or data visualization apps.
 
-<img src="preview.png" alt="Speedometer Preview" width="500">
+<img src="Speedometer/preview.png" alt="Speedometer Preview" width="500">
 
 ✨ Features
 	•	SwiftUI-native and fully customizable
