@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		57488DC02E3E261F00AD239B /* TickMarkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DB62E3E261F00AD239B /* TickMarkLabel.swift */; };
+		57488DC42E3E261F00AD239B /* SpeedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DBE2E3E261F00AD239B /* SpeedometerApp.swift */; };
+		57488DC52E3E261F00AD239B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57488DBA2E3E261F00AD239B /* Assets.xcassets */; };
+		57488DC72E3E264B00AD239B /* TickMarkLabel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DC62E3E264B00AD239B /* TickMarkLabel+Helper.swift */; };
+		57488DCA2E3E26CE00AD239B /* Polar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DC92E3E26CE00AD239B /* Polar.swift */; };
+		57488DCD2E3E29DF00AD239B /* SpeedometerHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DCC2E3E29DF00AD239B /* SpeedometerHand.swift */; };
+		57488DD22E3E347A00AD239B /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DD12E3E347A00AD239B /* SpeedometerView.swift */; };
+		57488DD42E3E34C000AD239B /* SpeedometerView+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DD32E3E34C000AD239B /* SpeedometerView+Content.swift */; };
+		57488DD62E3E34D400AD239B /* SpeedometerView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DD52E3E34D400AD239B /* SpeedometerView+Helper.swift */; };
+		57488DDA2E3E37B800AD239B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DD92E3E37B800AD239B /* RootView.swift */; };
+		57488DDC2E3E38CD00AD239B /* SpeedFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57488DDB2E3E38CD00AD239B /* SpeedFieldView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		57488D9A2E3DF4FF00AD239B /* Speedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57488DB62E3E261F00AD239B /* TickMarkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkLabel.swift; sourceTree = "<group>"; };
+		57488DBA2E3E261F00AD239B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57488DBE2E3E261F00AD239B /* SpeedometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerApp.swift; sourceTree = "<group>"; };
+		57488DC62E3E264B00AD239B /* TickMarkLabel+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TickMarkLabel+Helper.swift"; sourceTree = "<group>"; };
+		57488DC92E3E26CE00AD239B /* Polar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polar.swift; sourceTree = "<group>"; };
+		57488DCC2E3E29DF00AD239B /* SpeedometerHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerHand.swift; sourceTree = "<group>"; };
+		57488DD12E3E347A00AD239B /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
+		57488DD32E3E34C000AD239B /* SpeedometerView+Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeedometerView+Content.swift"; sourceTree = "<group>"; };
+		57488DD52E3E34D400AD239B /* SpeedometerView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeedometerView+Helper.swift"; sourceTree = "<group>"; };
+		57488DD92E3E37B800AD239B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		57488DDB2E3E38CD00AD239B /* SpeedFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		57488D9C2E3DF4FF00AD239B /* Speedometer */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Speedometer;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		57488D972E3DF4FF00AD239B /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		57488D912E3DF4FF00AD239B = {
 			isa = PBXGroup;
 			children = (
-				57488D9C2E3DF4FF00AD239B /* Speedometer */,
+				57488DBF2E3E261F00AD239B /* Speedometer */,
 				57488D9B2E3DF4FF00AD239B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,96 @@
 				57488D9A2E3DF4FF00AD239B /* Speedometer.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		57488DB72E3E261F00AD239B /* TickMarkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				57488DB62E3E261F00AD239B /* TickMarkLabel.swift */,
+				57488DC62E3E264B00AD239B /* TickMarkLabel+Helper.swift */,
+			);
+			path = TickMarkLabel;
+			sourceTree = "<group>";
+		};
+		57488DB92E3E261F00AD239B /* SpeedometerView */ = {
+			isa = PBXGroup;
+			children = (
+				57488DD02E3E346E00AD239B /* View */,
+				57488DC82E3E268F00AD239B /* Helper */,
+			);
+			path = SpeedometerView;
+			sourceTree = "<group>";
+		};
+		57488DBF2E3E261F00AD239B /* Speedometer */ = {
+			isa = PBXGroup;
+			children = (
+				57488DB92E3E261F00AD239B /* SpeedometerView */,
+				57488DD82E3E37A100AD239B /* Root */,
+				57488DD72E3E379800AD239B /* Resources */,
+			);
+			path = Speedometer;
+			sourceTree = "<group>";
+		};
+		57488DC82E3E268F00AD239B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				57488DCF2E3E345400AD239B /* Models */,
+				57488DCE2E3E344E00AD239B /* Views */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		57488DCB2E3E29CA00AD239B /* SpeedometerHand */ = {
+			isa = PBXGroup;
+			children = (
+				57488DCC2E3E29DF00AD239B /* SpeedometerHand.swift */,
+			);
+			path = SpeedometerHand;
+			sourceTree = "<group>";
+		};
+		57488DCE2E3E344E00AD239B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57488DCB2E3E29CA00AD239B /* SpeedometerHand */,
+				57488DB72E3E261F00AD239B /* TickMarkLabel */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57488DCF2E3E345400AD239B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57488DC92E3E26CE00AD239B /* Polar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57488DD02E3E346E00AD239B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57488DD12E3E347A00AD239B /* SpeedometerView.swift */,
+				57488DD32E3E34C000AD239B /* SpeedometerView+Content.swift */,
+				57488DD52E3E34D400AD239B /* SpeedometerView+Helper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57488DD72E3E379800AD239B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57488DBA2E3E261F00AD239B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57488DD82E3E37A100AD239B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				57488DBE2E3E261F00AD239B /* SpeedometerApp.swift */,
+				57488DD92E3E37B800AD239B /* RootView.swift */,
+				57488DDB2E3E38CD00AD239B /* SpeedFieldView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +166,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				57488D9C2E3DF4FF00AD239B /* Speedometer */,
 			);
 			name = Speedometer;
 			packageProductDependencies = (
@@ -109,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57488DC52E3E261F00AD239B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +224,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57488DD22E3E347A00AD239B /* SpeedometerView.swift in Sources */,
+				57488DC02E3E261F00AD239B /* TickMarkLabel.swift in Sources */,
+				57488DD62E3E34D400AD239B /* SpeedometerView+Helper.swift in Sources */,
+				57488DDC2E3E38CD00AD239B /* SpeedFieldView.swift in Sources */,
+				57488DDA2E3E37B800AD239B /* RootView.swift in Sources */,
+				57488DCA2E3E26CE00AD239B /* Polar.swift in Sources */,
+				57488DC72E3E264B00AD239B /* TickMarkLabel+Helper.swift in Sources */,
+				57488DCD2E3E29DF00AD239B /* SpeedometerHand.swift in Sources */,
+				57488DD42E3E34C000AD239B /* SpeedometerView+Content.swift in Sources */,
+				57488DC42E3E261F00AD239B /* SpeedometerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
