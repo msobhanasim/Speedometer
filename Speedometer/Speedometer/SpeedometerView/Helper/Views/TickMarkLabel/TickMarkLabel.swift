@@ -18,10 +18,8 @@ struct TickMarkLabel: View {
                 .font(
                     .system(
                         size: self.labelFontSize(for: geometryProxy.size),
-                        weight: .bold,
-                        design: .rounded
+                        weight: .bold
                     )
-                    .monospacedDigit()
                 )
                 .foregroundColor(self.color)
                 .position(self.labelPosition(for: geometryProxy.size))
