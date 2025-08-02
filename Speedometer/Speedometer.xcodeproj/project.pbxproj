@@ -74,8 +74,10 @@
 		57488DB92E3E261F00AD239B /* SpeedometerView */ = {
 			isa = PBXGroup;
 			children = (
-				57488DD02E3E346E00AD239B /* View */,
 				57488DC82E3E268F00AD239B /* Helper */,
+				57488DD12E3E347A00AD239B /* SpeedometerView.swift */,
+				57488DD32E3E34C000AD239B /* SpeedometerView+Content.swift */,
+				57488DD52E3E34D400AD239B /* SpeedometerView+Helper.swift */,
 			);
 			path = SpeedometerView;
 			sourceTree = "<group>";
@@ -83,6 +85,7 @@
 		57488DBF2E3E261F00AD239B /* Speedometer */ = {
 			isa = PBXGroup;
 			children = (
+				57488DBE2E3E261F00AD239B /* SpeedometerApp.swift */,
 				57488DD82E3E37A100AD239B /* Root */,
 				57488DB92E3E261F00AD239B /* SpeedometerView */,
 				57488DD72E3E379800AD239B /* Resources */,
@@ -124,16 +127,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		57488DD02E3E346E00AD239B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				57488DD12E3E347A00AD239B /* SpeedometerView.swift */,
-				57488DD32E3E34C000AD239B /* SpeedometerView+Content.swift */,
-				57488DD52E3E34D400AD239B /* SpeedometerView+Helper.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		57488DD72E3E379800AD239B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +138,6 @@
 		57488DD82E3E37A100AD239B /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				57488DBE2E3E261F00AD239B /* SpeedometerApp.swift */,
 				57488DD92E3E37B800AD239B /* RootView.swift */,
 				57488DDB2E3E38CD00AD239B /* SpeedFieldView.swift */,
 			);

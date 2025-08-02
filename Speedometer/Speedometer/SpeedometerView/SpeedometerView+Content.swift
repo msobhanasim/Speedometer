@@ -46,7 +46,7 @@ extension SpeedometerView {
     var progressArcView: some View {
         let currentValueAngle = angleForHand(
             for: currentValue,
-            labels: majorTicks,
+            labels: labelValues,
             startAngle: startAngle.degrees,
             endAngle: endAngle.degrees
         )
@@ -70,14 +70,14 @@ extension SpeedometerView {
     }
     
     var tickMarkLabels: some View {
-        let combinedArray = Array(zip(majorTicks.indices, majorTicks))
+        let combinedArray = Array(zip(labelValues.indices, labelValues))
         
         return ForEach(combinedArray, id: \.0) { index, value in
             TickMarkLabel(
                 number: value,
                 angle: self.angleForLabel(
                     for: index,
-                    totalItems: majorTicks.count,
+                    totalItems: labelValues.count,
                     startAngle: startAngle.degrees,
                     endAngle: endAngle.degrees
                 ),
@@ -90,7 +90,7 @@ extension SpeedometerView {
         ZStack {
             let currentHandAngle = angleForHand(
                 for: currentValue,
-                labels: majorTicks,
+                labels: labelValues,
                 startAngle: startAngle.degrees,
                 endAngle: endAngle.degrees
             )
